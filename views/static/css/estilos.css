@@ -1,0 +1,54 @@
+.bg-primario{
+    background-color: #6E83CF;
+}
+.bg-secundario{
+    background-color: #241B89;
+}
+.logo{
+    width: 136px;
+}
+.linkedin{
+    width: 74px;
+}
+.telegram{
+    width: 44px;
+}
+.nome,.menu li a{
+    text-decoration: none;
+}
+.nome{
+    font-family: oswald, sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 2.5rem;    
+}
+.menu{
+    list-style: none;
+    padding: 0;
+}
+.menu li.pagina{
+    width: 28vh;
+}
+.menu li a{
+    font-family: open-sans, sans-serif;
+    color: white;
+    padding: 0 0.25rem;
+    font-size: 1.5rem;
+}
+#contato .contatos img{
+    width: 60px;
+}
+header{
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5), -5px -5px 15px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    margin: 2rem;
+}
+.container-fluid{
+    display: flex;
+    justify-content: flex-end;
+}
+.logo-rodape{
+    height: 3.5rem;
+}

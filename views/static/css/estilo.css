@@ -1,0 +1,305 @@
+*{
+margin: 0px;
+}
+
+body{
+font-family: open-sans, sans-serif;
+color: black;
+}
+
+h1,h2,h3,h4{
+font-family: oswald, sans-serif;
+color: black;
+text-align: justify;
+}
+
+p{
+line-height: 20px;
+text-align: justify;
+text-indent: 2em;
+margin: 0;
+}
+
+.formacao{
+line-height: 20px;
+text-align: left;
+text-indent: 2em;
+margin: 0;
+}
+
+.nome{
+font-family: oswald, sans-serif;	
+font-size: 45px;
+text-decoration: none;
+color: black;
+}
+
+nav{
+display: flex;	
+flex-direction: column;	
+align-items: center;
+background-color: #6E83CF;
+}
+
+nav a{
+display: flex;	
+flex-direction: column;	
+align-items: center;
+}
+
+nav a img{
+display: flex;	
+flex-direction: column;	
+align-items: center;
+}
+
+nav ul{
+display: flex;
+flex-direction: row;
+align-items: center; 
+list-style: none;
+}
+
+nav ul li{
+text-align: center;
+display: flex;
+flex-wrap: wrap;
+width: 40vh;
+text-align: center;
+}
+
+nav ul li a{
+height: 80px;
+margin: 10px;
+display: inline-block;
+padding: 10px, 0;
+width:100vh;
+text-decoration: none;
+color: white;
+font-size: 35px;
+}
+
+header{
+display: flex;	
+flex-direction: column;	
+align-items: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-color: white;
+text-align: center;
+padding: 20px;
+}
+
+header h1{
+color: black;
+}
+
+header p{
+margin-bottom: 2em;
+}
+
+#sobre{
+display: flex;	
+flex-direction: column;	
+align-items: center;
+text-align: center;
+padding: 10px 10px 20px 20px;
+color: black;
+}
+
+#sobre h1{
+color: black;
+}
+
+#sobre p{
+margin-bottom: 2.5em;
+max-width: 1000px;
+}
+
+#contato{
+display: flex;	
+flex-direction: row;	
+align-items: center;
+}
+
+#contato div{
+display: flex;	
+flex-direction: row;
+flex-wrap: wrap;
+justfy-content: space-around;
+max-width: 500px;
+margin: 0 auto;	
+align-items: center;
+text-align: center;
+padding: 20px;
+}
+
+#contao h2, #contato p{
+display: flex;	
+flex-direction: column;
+width: 100;
+}
+
+
+/*#contato div{
+flex-grow:1;
+flex-basis: 150px;
+padding: 0 10px;
+}*/
+
+footer{
+text-align: center;
+padding: 10px;
+background-color: #241B89;
+}
+
+footer a{
+text-decoration: none;
+color: white;
+}
+
+.rodape{
+text-align: justify;
+}
+
+#rosa{
+display: flex;	
+flex-direction: column;	
+align-items: center;
+}
+
+.logo{
+position: absolute;
+height: 96px;
+}
+
+#telefone img{
+display: flex;	
+flex-direction: column;	
+position: relative;
+width: 80px;
+height: 76px;
+
+}
+
+
+#email img{
+display: flex;	
+flex-direction: row;	
+position: relative;
+width: 70px;
+height: 66px;
+}
+
+/*.telefone{
+display: flex;	
+flex-direction: column;	
+position: absolute;
+width: 80px;
+height: 76px;
+top: 50px;
+}
+
+.email{
+display: flex;	
+flex-direction: column;	
+position: absolute;
+width: 80px;
+height: 76px;
+
+top: 50px;
+}*/
+
+#divisa{
+padding: 10px;
+background-color: #241B89;
+}
+
+#imagem img{
+display: flex;	
+flex-direction: column;
+width: 200px;
+position: relative;
+}
+/*
+#imagem{
+width: 100%;
+}*/
+
+.linkedin{
+display: flex;	
+flex-direction: column;	
+align-items: center;
+height: 76px;
+left:200px;
+top:20px;
+}
+
+.telegram{
+display: flex;	
+flex-direction: column;	
+align-items: center;
+height: 76px;
+left: 500px;
+top: -50px;
+}
+
+#eu{
+width: 300px;
+position: absolute;
+}
+
+/*.foto{
+display: flex;	
+flex-direction: column;	
+/*align-items: center;*/
+position: relative;
+width: 150px;
+height: 175px;
+left: 600px;
+top: 30px;
+border-radius: 10px;
+}*/
+
+@media screen and (min-width:768px) {
+		nav{
+			flex-direction: row;
+			justify-content: space-around;
+		}
+		nav ul{
+			flex-direction: row;
+			width: 100%;
+		}
+		nav ul li a{
+		height: 80px;
+		margin: 10px;
+		display: inline-block;
+		padding: 10px, 0;
+		width:10vh;
+		text-decoration: none;
+		color: white;
+		font-size: 5px;
+		}
+		.nome{
+			align-items: center;
+			justify-content: space-around;
+		}
+		header{
+			height: 600px;
+			height: 60vh;
+			justify-content: center;
+		}
+		#sobre{
+			height: 250px;
+			height: 30vh;
+			justify-content: center;
+			min-height: 250px;		
+		}
+		#contato{
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		max-width: 500px;
+		margin: 0 auto;
+		}
